@@ -11,6 +11,7 @@
     width: 100%;
     /* Resize the image to 100% of the container width */
     height: 60%;
+    max-height: 60%;
     /* Maintain the aspect ratio */
     display: block;
     /* Remove extra space below inline images */
