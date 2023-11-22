@@ -58,7 +58,7 @@
     margin: 10px;
     text-align: center;
     line-height: 50px;
-
+    border-radius: 15%;
 }
 
 .child2 {
@@ -69,7 +69,7 @@
     margin: 10px;
     text-align: center;
     line-height: 50px;
-
+    border-radius: 15%;
 }
 
 .child3 {
@@ -80,7 +80,7 @@
     margin: 10px;
     text-align: center;
     line-height: 50px;
-
+    border-radius: 15%;
 }
 
 
@@ -93,16 +93,25 @@
 .flex2 {
     display: flex;
     flex-direction: column;
-
+    width: 60%;
+    justify-content: center;
+    /*mahabetch tji fel wost /*/
 }
 
 
 .f21 {
     background-color: darkgray;
     margin-bottom: 1%;
+
 }
 
 .f22 {
     background-color: lawngreen;
     color: brown;
+}
+
+th {
+    width: 4%;
+    height: 20%;
+
 }
