@@ -1,7 +1,7 @@
 .image1 {
     width: 98%;
     /* Adjust the percentage as needed */
-
+    max-height: 60%;
     /* Add a maximum width if necessary */
     margin: 0 auto;
     /* Center the image within the container */
