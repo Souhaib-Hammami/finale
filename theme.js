@@ -1,11 +1,9 @@
-
 function theme2() {
-<<<<<<< Updated upstream
-    var theme = document.getElementById('R');
-=======
     var theme = document.getElementById("R");
->>>>>>> Stashed changes
-    theme.src = "sky.jpg";
+    if (theme.getAttribute("src") === "R.jpeg") {
+        theme.src = "sky.jpg";
+    }
+    else (theme.src = "R.jpeg")
     return (theme);
 }
 

@@ -1,22 +1,15 @@
 .image1 {
     width: 98%;
-    /* Adjust the percentage as needed */
-    max-height: 60%;
-    /* Add a maximum width if necessary */
     margin: 0 auto;
-    /* Center the image within the container */
+    height: 700px;
 }
 
 .image1 img {
     width: 100%;
-    /* Resize the image to 100% of the container width */
-    height: 60%;
-    max-height: 60%;
-    /* Maintain the aspect ratio */
+    height: 90%;
+    max-height: 90%;
     display: block;
-    /* Remove extra space below inline images */
 }
-
 
 .overlay {
     position: absolute;
@@ -28,66 +21,62 @@
 
 .overlay-text {
     position: absolute;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    text-decoration: overline;
-    text-decoration-style: double;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     font-size: 50px;
-    background-color: rgba(84, 84, 84, 0);
+    background-color: rgba(84, 84, 84, 0.7);
     text-shadow: rgb(0, 0, 0) 0px 7px 6px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    /* Adjust text color as needed */
-
+    color: #fff;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
+    height: 500px;
 }
+
+.child1,
+.child2,
+.child3 {
+    width: 20%;
+    height: 70%;
+    margin: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.animate__animated {
+    margin-top: 10px;
+}
+
+
+
 
 
 .child1 {
-    width: 20%;
-    height: 55%;
-    background-color: lightblue;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 15%;
+    background-color: #3498db;
+    /* Blue */
+    color: #fff;
 }
 
-
-
 .child2 {
-    font-size: 80%;
-    background-color: lavender;
-    width: 20%;
-    height: 20%;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 15%;
+    background-color: #2ecc71;
+    /* Green */
+    color: #fff;
 }
 
 .child3 {
-    font-size: 80%;
-    background-color: palegoldenrod;
-    width: 20%;
-    height: 55%;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 15%;
+    background-color: #f39c12;
+    /* Orange */
+    color: #fff;
 }
-
-
-
-
 
 
 .flex2 {
@@ -95,23 +84,36 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 26%;
 }
 
-
 .f21 {
-    background-color: darkgray;
+    background-color: #7f8c8d;
+    /* Gray */
     margin-bottom: 1%;
     width: 60%;
 }
 
 .f22 {
     width: 60%;
-    background-color: lawngreen;
-    color: brown;
+    background-color: #27ae60;
+    /* Dark Green */
+    color: #8e44ad;
+    /* Purple */
 }
 
-th {
-    width: 4%;
-    height: 20%;
+.th {
+    top: 50%;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+}
 
+.th i {
+    color: #3498db;
+    /* Blue */
+}
+
+.carochild1 {
+    margin-left: 12.5%;
 }
